@@ -43,13 +43,9 @@ export default function Header({ onMenuToggle, isMenuOpen }: HeaderProps) {
           animate={{ opacity: 1, x: 0 }}
           transition={{ delay: 0.7 }}
         >
-          <Image
-            src="/otsuka-logo.png"
-            alt="Otsuka Soluções Logo"
-            width={120}
-            height={48}
-            className="object-contain"
-          />
+          <h1 className="text-2xl font-bold bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
+            OTSUKA
+          </h1>
           <nav className="hidden lg:block">
             <ul className="flex space-x-8">
               {[
